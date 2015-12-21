@@ -18,12 +18,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlm-5R-NoM">
-                                <rect key="frame" x="277" y="285" width="46" height="30"/>
+                                <rect key="frame" x="254" y="459" width="92" height="57"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Start"/>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDu-He-Zt0">
-                                <rect key="frame" x="279" y="171" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" highlighted="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jDu-He-Zt0">
+                                <rect key="frame" x="244" y="170" width="112" height="63"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -31,9 +32,8 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="mlm-5R-NoM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0kC-si-5Om"/>
-                            <constraint firstItem="jDu-He-Zt0" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="151" id="LBf-K5-6ER"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mlm-5R-NoM" secondAttribute="bottom" constant="84" id="8yw-Vi-pJQ"/>
                             <constraint firstItem="jDu-He-Zt0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="S8O-5A-QPM"/>
-                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mlm-5R-NoM" secondAttribute="bottom" constant="285" id="iNu-6v-Qsi"/>
                         </constraints>
                     </view>
                     <connections>
@@ -43,6 +43,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="305" y="415"/>
         </scene>
     </scenes>
 </document>

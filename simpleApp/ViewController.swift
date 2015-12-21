@@ -60,15 +60,15 @@ class ViewController: UIViewController {
     
     func run() {
         counter = 0
+        btn.setTitle("Pause", forState: UIControlState.Normal)
+        btn.hidden = false
         startPlayer!.play()
         timer = NSTimer.scheduledTimerWithTimeInterval(0.1, target:self, selector: Selector("updateCounter"), userInfo: nil, repeats: true)
-        btn.setTitle("Pause", forState: UIControlState.Normal)
     }
     
     func countDown() {
         label.text = String(countdownCounter)
         if countdownCounter <= 0 {
-            btn.hidden = false
             countdownTimer!.invalidate()
             run()
         } else {
